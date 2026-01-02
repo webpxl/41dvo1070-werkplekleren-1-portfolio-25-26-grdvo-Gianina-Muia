@@ -3,12 +3,332 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
+    <title>GianinaMuiaDVOAPortfolio</title>
+    <link rel="stylesheet" href="styles.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<a class="skip-link" href="#main">Ga naar inhoud</a>
 
-<p>Gianina Muia</p>
+<header class="site-header">
+    <div class="container header-inner">
+        <div class="brand">
+            <span class="logo" aria-hidden="true">GM</span>
+            <div>
+                <p class="brand-name">Gianina Muia</p>
+                <p class="brand-subtitle">Student Digitale Vorming • PXL</p>
+            </div>
+        </div>
+
+        <nav class="nav" aria-label="Hoofdnavigatie">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navList">
+                Menu
+            </button>
+            <ul id="navList" class="nav-list">
+                <li><a href="#over-mij">Over mij</a></li>
+                <li><a href="#waarom">Waarom ik</a></li>
+                <li><a href="#projecten">Projecten</a></li>
+                <li><a href="#speciaal">Speciaal</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container hero">
+        <div class="hero-text">
+            <h1>Hey! Ik ben <span class="accent">Gianina</span>.</h1>
+            <p class="lead">
+                Ik ben 19 jaar, woon in Borgloon en studeer Digitale Vorming aan PXL.
+                Ik kom oorspronkelijk uit Roemenië en verhuisde toen ik 6 jaar oud was.
+                In het begin ben ik vaak wat stil, maar zodra je me kent ben ik heel open.
+            </p>
+
+            <div class="hero-actions">
+                <a class="btn" href="#projecten">Bekijk projecten</a>
+                <a class="btn btn-ghost" href="#contact">Contact</a>
+            </div>
+
+            <ul class="quick-facts" aria-label="Snelle feiten">
+                <li><strong>Naam:</strong> Gianina Muia</li>
+                <li><strong>Leeftijd:</strong> 19</li>
+                <li><strong>Woonplaats:</strong> Borgloon</li>
+                <li><strong>Opleiding:</strong> Digitale Vorming (PXL)</li>
+                <li><strong>Eigenschappen:</strong> stil • grappig • ongeduldig</li>
+            </ul>
+        </div>
+
+        <div class="hero-card" role="img" aria-label="Profielfoto placeholder">
+            <p class="tiny muted">
+                <img src="mezelf.png">
+            </p>
+        </div>
+    </div>
+</header>
+
+<main id="main" class="site-main">
+
+    <section id="over-mij" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Over mij</h2>
+                <p>Wie ben ik, wat maakt me speciaal en wat je van mij mag verwachten.</p>
+            </header>
+
+            <div class="grid-2">
+                <article class="card">
+                    <h3>Korte voorstelling</h3>
+                    <p>
+                        Ik ben Gianina Muia. Ik help mensen graag en leer graag nieuwe mensen kennen.
+                        Als je me niet goed kent, kan ik stil overkomen, maar zodra we elkaar beter leren kennen
+                        ben ik een heel open persoon.
+                    </p>
+                    <p>
+                        Ik ben eerlijk en straight forward: soms denk ik niet na voor ik iets zeg.
+                        Dat kan nadelen hebben, maar ik waardeer wel duidelijkheid en eerlijkheid.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Wat maakt mij speciaal?</h3>
+                    <ul class="list">
+                        <li>Ik help anderen graag en werk graag samen in team.</li>
+                        <li>Ik ben nieuwsgierig en praat graag met nieuwe mensen.</li>
+                        <li>Ik wil ieders mening horen en leer daaruit.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="waarom" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2>Waarom ik deze richting koos</h2>
+                <p>Motivatie, sterktes en waar ik dit jaar in wil groeien.</p>
+            </header>
+
+            <div class="grid-2">
+                <article class="card">
+                    <h3>Motivatie</h3>
+                    <p>
+                        Ik koos voor deze richting omdat ik graag met computers werk.
+                        Ik wil leren coderen en leren hoe je het design van een website goed opbouwt:
+                        iets dat werkt én er mooi uitziet.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Mijn sterktes</h3>
+                    <div class="tags" aria-label="Skills tags">
+                        <span class="tag">Informatie zoeken</span>
+                        <span class="tag">Samenwerken</span>
+                        <span class="tag">Eerlijk</span>
+                        <span class="tag">Communicatie</span>
+                        <span class="tag">Nieuwsgierig</span>
+                    </div>
+                    <p class="muted">
+                        Dit jaar wil ik vooral groeien in <strong>coderen</strong> en <strong>webdesign</strong>.
+                        Mensen vinden vaak sterk aan mij dat ik graag ieders mening wil weten.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projecten" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Projecten</h2>
+                <p>
+                    Hieronder komen mijn (school)projecten per categorie. Ik beschrijf telkens het vak/context,
+                    wat het doel was en wat ik zelf precies deed.
+                </p>
+            </header>
+
+            <div class="filters" aria-label="Project filters">
+                <button class="chip is-active" type="button" data-filter="all">Alles</button>
+                <button class="chip" type="button" data-filter="school">School</button>
+                <button class="chip" type="button" data-filter="niet-school">Niet-school</button>
+                <button class="chip" type="button" data-filter="web">Web</button>
+                <button class="chip" type="button" data-filter="design">Design</button>
+                <button class="chip" type="button" data-filter="organisatie">Organisatie</button>
+            </div>
+
+            <div class="projects">
+
+                <!-- PROJECT 1  -->
+                <article class="project card" data-tags="school web">
+                    <header class="project-header">
+                        <h3>Mijn Portfolio — Werkplekleren 1</h3>
+                        <p class="muted">Categorie: Web • Schoolproject • Vak: Werkplekleren 1</p>
+                    </header>
+
+                    <div class="project-media">
+                        <div class="shot">Screenshot 1 (morgen niet vergeten foto plaatsen!!!!)</div>
+                        <div class="shot">Screenshot 2 (morgen niet vergeten foto plaatsen!!!!)</div>
+                    </div>
+
+                    <div class="project-body">
+                        <p><strong>Doel:</strong> Een portfolio maken over mezelf.</p>
+                        <p><strong>Mijn rol:</strong> Ik gaf mensen tips in mijn groep over hun portfolio en ik maakte ook mijn eigen portfolio.</p>
+                        <p><strong>Tools:</strong> HTML • CSS </p>
+
+                        <div class="project-links">
+                            <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+                            <a href="#" target="_blank" rel="noreferrer">Live demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project card" data-tags="school design">
+                    <header class="project-header">
+                        <h3>Project 2 — )</h3>
+                        <p class="muted">Categorie: Design • Schoolproject • Vak: (vul in...)</p>
+                    </header>
+
+                    <div class="project-media">
+                        <div class="shot">Visual 1 </div>
+                        <div class="shot">Visual 2 </div>
+                    </div>
+
+                    <div class="project-body">
+                        <p><strong>Doel:</strong> ??</p>
+                        <p><strong>Mijn rol:</strong> ??</p>
+                        <p><strong>Tools:</strong> ?? </p>
+                    </div>
+                </article>
+
+                <!-- PROJECT 3  -->
+                <article class="project card" data-tags="niet-school organisatie">
+                    <header class="project-header">
+                        <h3>Project 3 — (vul titel in)</h3>
+                        <p class="muted">Categorie: Organisatie • Niet-schoolproject</p>
+                    </header>
+
+                    <div class="project-media">
+                        <div class="shot">Foto 1 </div>
+                        <div class="shot">Foto 2</div>
+                    </div>
+
+                    <div class="project-body">
+                        <p><strong>Wat was het?</strong> ??</p>
+                        <p><strong>Mijn bijdrage:</strong> ??</p>
+                        <p><strong>Wat leerde ik:</strong> ??</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="speciaal" class="section section-alt">
+        <div class="container">
+            <header class="section-header">
+                <h2>Speciale sectie</h2>
+                <p>Een extra stukje dat wat “jou” toont — met een kleine JS-interactie.</p>
+            </header>
+
+            <div class="grid-2">
+                <article class="card">
+                    <h3>Random weetje over mij ✨</h3>
+                    <p>Klik en ontdek een weetje.</p>
+                    <button class="btn" id="factBtn" type="button">Ik geef niet makkelijk op</button>
+                    <p class="fact" id="factOutput" aria-live="polite">Ik heb een passie voor auto's</p>
+                </article>
+
+                <article class="card">
+                    <h3>Mini-profiel</h3>
+                    <ul class="list">
+                        <li><strong>Ik ben:</strong> lief, eerlijk en soms wat ongeduldig</li>
+                        <li><strong>Ik hou van:</strong> nieuwe mensen leren kennen</li>
+                        <li><strong>Ik wil beter worden in:</strong> coderen & webdesign</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Contact</h2>
+                <p>Mail, socials en privacy-richtlijnen.</p>
+            </header>
+
+            <div class="grid-2">
+                <article class="card">
+                    <h3>Stuur me iets</h3>
+                    <ul class="list">
+                        <li><strong>Email:</strong> <a href="mailto:gianinamuia17@gmail.com">gianinamuia17@gmail.com</a></li>
+                        <li><strong>Instagram:</strong> <a href="https://www.instagram.com/Pd23jd/" target="_blank" rel="noreferrer">Pd23jd</a></li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <h3>Privacy</h3>
+                    <p>
+                        Lees mijn privacy-richtlijnen:
+                        <a href="privacy.txt" target="_blank" rel="noreferrer">privacy.txt</a>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© <span id="year"></span> Gianina Muia — Portfolio</p>
+        <p class="muted">Gemaakt met HTML/CSS</p>
+    </div>
+</footer>
+
+<script>
+
+    const toggle = document.querySelector(".nav-toggle");
+    const navList = document.querySelector("#navList");
+    toggle?.addEventListener("click", () => {
+        const expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!expanded));
+        navList.classList.toggle("is-open");
+    });
+
+
+    const chips = document.querySelectorAll(".chip");
+    const projects = document.querySelectorAll(".project");
+    chips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+            chips.forEach(c => c.classList.remove("is-active"));
+            chip.classList.add("is-active");
+
+            const filter = chip.dataset.filter;
+            projects.forEach((p) => {
+                const tags = (p.dataset.tags || "").split(" ");
+                const show = filter === "all" || tags.includes(filter);
+                p.style.display = show ? "" : "none";
+            });
+        });
+    });
+
+
+    const facts = [
+        "Ik ben verhuisd uit Roemenië toen ik 6 jaar was.",
+        "In het begin ben ik stil, maar als je me kent ben ik heel open.",
+        "Ik help mensen graag en leer graag nieuwe mensen kennen.",
+        "Ik ben eerlijk/straight forward (soms té direct).",
+        "Ik wil dit jaar beter worden in coderen en webdesign."
+    ];
+
+    const factBtn = document.querySelector("#factBtn");
+    const factOutput = document.querySelector("#factOutput");
+    factBtn?.addEventListener("click", () => {
+        const pick = facts[Math.floor(Math.random() * facts.length)];
+        factOutput.textContent = pick;
+    });
+
+
+    document.querySelector("#year").textContent = String(new Date().getFullYear());
+</script>
 </body>
 </html>
