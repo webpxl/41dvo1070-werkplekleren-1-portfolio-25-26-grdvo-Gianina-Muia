@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GianinaMuiaDVOAPortfolio</title>
+    <title>Portfolio Gianina Muia</title>
     <link rel="stylesheet" href="styles.css">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
 <a class="skip-link" href="#main">Ga naar inhoud</a>
 
@@ -22,9 +21,6 @@
         </div>
 
         <nav class="nav" aria-label="Hoofdnavigatie">
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navList">
-                Menu
-            </button>
             <ul id="navList" class="nav-list">
                 <li><a href="#over-mij">Over mij</a></li>
                 <li><a href="#waarom">Waarom ik</a></li>
@@ -58,10 +54,8 @@
             </ul>
         </div>
 
-        <div class="hero-card" role="img" aria-label="Profielfoto placeholder">
-            <p class="tiny muted">
-                <img src="mezelf.png">
-            </p>
+        <div class="hero-card">
+            <img src="mezelf.png" alt="Profielfoto van Gianina Muia">
         </div>
     </div>
 </header>
@@ -146,33 +140,23 @@
                 </p>
             </header>
 
-            <div class="filters" aria-label="Project filters">
-                <button class="chip is-active" type="button" data-filter="all">Alles</button>
-                <button class="chip" type="button" data-filter="school">School</button>
-                <button class="chip" type="button" data-filter="niet-school">Niet-school</button>
-                <button class="chip" type="button" data-filter="web">Web</button>
-                <button class="chip" type="button" data-filter="design">Design</button>
-                <button class="chip" type="button" data-filter="organisatie">Organisatie</button>
-            </div>
-
             <div class="projects">
 
-                <!-- PROJECT 1  -->
-                <article class="project card" data-tags="school web">
+                <article class="project card">
                     <header class="project-header">
                         <h3>Mijn Portfolio — Werkplekleren 1</h3>
                         <p class="muted">Categorie: Web • Schoolproject • Vak: Werkplekleren 1</p>
                     </header>
 
                     <div class="project-media">
-                        <div class="shot">Screenshot 1 (morgen niet vergeten foto plaatsen!!!!)</div>
-                        <div class="shot">Screenshot 2 (morgen niet vergeten foto plaatsen!!!!)</div>
+                        <div class="shot">Screenshot 1 (foto toevoegen)</div>
+                        <div class="shot">Screenshot 2 (foto toevoegen)</div>
                     </div>
 
                     <div class="project-body">
                         <p><strong>Doel:</strong> Een portfolio maken over mezelf.</p>
                         <p><strong>Mijn rol:</strong> Ik gaf mensen tips in mijn groep over hun portfolio en ik maakte ook mijn eigen portfolio.</p>
-                        <p><strong>Tools:</strong> HTML • CSS </p>
+                        <p><strong>Tools:</strong> HTML • CSS</p>
 
                         <div class="project-links">
                             <a href="#" target="_blank" rel="noreferrer">GitHub</a>
@@ -180,40 +164,40 @@
                         </div>
                     </div>
                 </article>
-                <article class="project card" data-tags="school design">
+
+                <article class="project card">
                     <header class="project-header">
-                        <h3>Project 2 — )</h3>
-                        <p class="muted">Categorie: Design • Schoolproject • Vak: (vul in...)</p>
+                        <h3>Project 2</h3>
+                        <p class="muted">Categorie: Design • Schoolproject</p>
                     </header>
 
                     <div class="project-media">
-                        <div class="shot">Visual 1 </div>
-                        <div class="shot">Visual 2 </div>
+                        <div class="shot">Visual 1</div>
+                        <div class="shot">Visual 2</div>
                     </div>
 
                     <div class="project-body">
-                        <p><strong>Doel:</strong> ??</p>
-                        <p><strong>Mijn rol:</strong> ??</p>
-                        <p><strong>Tools:</strong> ?? </p>
+                        <p><strong>Doel:</strong> (vul in)</p>
+                        <p><strong>Mijn rol:</strong> (vul in)</p>
+                        <p><strong>Tools:</strong> (vul in)</p>
                     </div>
                 </article>
 
-                <!-- PROJECT 3  -->
-                <article class="project card" data-tags="niet-school organisatie">
+                <article class="project card">
                     <header class="project-header">
-                        <h3>Project 3 — (vul titel in)</h3>
+                        <h3>Project 3</h3>
                         <p class="muted">Categorie: Organisatie • Niet-schoolproject</p>
                     </header>
 
                     <div class="project-media">
-                        <div class="shot">Foto 1 </div>
+                        <div class="shot">Foto 1</div>
                         <div class="shot">Foto 2</div>
                     </div>
 
                     <div class="project-body">
-                        <p><strong>Wat was het?</strong> ??</p>
-                        <p><strong>Mijn bijdrage:</strong> ??</p>
-                        <p><strong>Wat leerde ik:</strong> ??</p>
+                        <p><strong>Wat was het?</strong> (vul in)</p>
+                        <p><strong>Mijn bijdrage:</strong> (vul in)</p>
+                        <p><strong>Wat leerde ik:</strong> (vul in)</p>
                     </div>
                 </article>
 
@@ -225,15 +209,14 @@
         <div class="container">
             <header class="section-header">
                 <h2>Speciale sectie</h2>
-                <p>Een extra stukje dat wat “jou” toont — met een kleine JS-interactie.</p>
+                <p>Een extra stukje dat wat “jou” toont (zonder JS).</p>
             </header>
 
             <div class="grid-2">
                 <article class="card">
                     <h3>Random weetje over mij ✨</h3>
-                    <p>Klik en ontdek een weetje.</p>
-                    <button class="btn" id="factBtn" type="button">Ik geef niet makkelijk op</button>
-                    <p class="fact" id="factOutput" aria-live="polite">Ik heb een passie voor auto's</p>
+                    <p>Ik heb een passie voor auto's.</p>
+                    <p class="muted">Ik geef niet makkelijk op.</p>
                 </article>
 
                 <article class="card">
@@ -279,56 +262,9 @@
 
 <footer class="site-footer">
     <div class="container footer-inner">
-        <p>© <span id="year"></span> Gianina Muia — Portfolio</p>
+        <p>© 2026 Gianina Muia — Portfolio</p>
         <p class="muted">Gemaakt met HTML/CSS</p>
     </div>
 </footer>
-
-<script>
-
-    const toggle = document.querySelector(".nav-toggle");
-    const navList = document.querySelector("#navList");
-    toggle?.addEventListener("click", () => {
-        const expanded = toggle.getAttribute("aria-expanded") === "true";
-        toggle.setAttribute("aria-expanded", String(!expanded));
-        navList.classList.toggle("is-open");
-    });
-
-
-    const chips = document.querySelectorAll(".chip");
-    const projects = document.querySelectorAll(".project");
-    chips.forEach((chip) => {
-        chip.addEventListener("click", () => {
-            chips.forEach(c => c.classList.remove("is-active"));
-            chip.classList.add("is-active");
-
-            const filter = chip.dataset.filter;
-            projects.forEach((p) => {
-                const tags = (p.dataset.tags || "").split(" ");
-                const show = filter === "all" || tags.includes(filter);
-                p.style.display = show ? "" : "none";
-            });
-        });
-    });
-
-
-    const facts = [
-        "Ik ben verhuisd uit Roemenië toen ik 6 jaar was.",
-        "In het begin ben ik stil, maar als je me kent ben ik heel open.",
-        "Ik help mensen graag en leer graag nieuwe mensen kennen.",
-        "Ik ben eerlijk/straight forward (soms té direct).",
-        "Ik wil dit jaar beter worden in coderen en webdesign."
-    ];
-
-    const factBtn = document.querySelector("#factBtn");
-    const factOutput = document.querySelector("#factOutput");
-    factBtn?.addEventListener("click", () => {
-        const pick = facts[Math.floor(Math.random() * facts.length)];
-        factOutput.textContent = pick;
-    });
-
-
-    document.querySelector("#year").textContent = String(new Date().getFullYear());
-</script>
 </body>
 </html>
