@@ -254,7 +254,7 @@ a:hover{ text-decoration:underline; }
 .section-header h2{
     margin:0 0 6px;
     font-size: clamp(1.5rem, 2.6vw, 2rem);
-    letter-spacing:.2px;
+    letter-spacing:2px;
 }
 .section-header p{
     margin:0;
@@ -279,7 +279,7 @@ a:hover{ text-decoration:underline; }
 .card h3{
     margin:0 0 8px;
     color: var(--textOnLight);
-    letter-spacing:.2px;
+    letter-spacing:2px;
 }
 
 .card p{ color: var(--textOnLight); }
@@ -423,5 +423,40 @@ a:hover{ text-decoration:underline; }
         min-width:220px;
         box-shadow: var(--shadow);
     }
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 40px;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-top: 40px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        color: #34495e;
+    }
+
+    p {
+        margin: 8px 0 16px 0;
+    }
+
+    section {
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 30px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
     .nav-list.is-open{ display:flex; }
 }
